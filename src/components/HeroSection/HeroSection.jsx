@@ -2,7 +2,7 @@
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <div id="hero" className="mt-20">HeroSection</div>
   )
 }
 
