@@ -20,7 +20,11 @@ export default {
       },
       colors:{
         primary: "#800080",
-      }
+      },
+      borderWidth:{
+        slim: "1.5px",
+      },
+      
     },
   },
   plugins: [],
