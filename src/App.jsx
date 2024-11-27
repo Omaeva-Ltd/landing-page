@@ -1,5 +1,5 @@
 
-import { HeroSection, Navbar} from './components'
+import { HeroSection, Navbar, AboutUs} from './components'
 
 function App() {
 
@@ -9,6 +9,10 @@ function App() {
     <section className='w-full'>
       <HeroSection />
     </section>
+    <section className='w-full pt-1'>
+      <AboutUs />
+    </section>
+    
    </main>
   )
 }

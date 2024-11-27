@@ -1,0 +1,22 @@
+.hero-video{
+    width: 100%;
+    
+}
+
+.video-wrapper{
+    width: 40vw;
+    animation: mainVideo 5s linear;
+    animation-timeline: view();
+    animation-range: entry 20%;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mainVideo {
+    from{
+        min-width: 30%;
+    }
+    to{
+        width: 100%;
+        
+    }
+}
