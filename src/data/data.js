@@ -1,0 +1,30 @@
+const serviceDataSet = [
+    {service: "Web Design",
+    img: "/assets/service-image-1.svg"
+    }, 
+    {service: "Content creation",
+        img: "/assets/service-image-2.svg",
+    }, 
+    {service:"Web development",
+        img: "/assets/service-image-3.svg",
+    }, 
+    {service:"App Design",
+        img: "/assets/service-image-4.svg",
+    }, 
+    {service:"Visual Design",
+        img: "/assets/service-image-5.svg",
+    }, 
+    {service:"Webflow",
+        img: "/assets/service-image-6.svg",
+    }, 
+    {service:"Digital Marketing",
+        img: "/assets/service-image-7.svg",
+    }, 
+    {service:"Branding",
+        img: "/assets/service-image-8.svg",
+    }, 
+    {service:"E-commerce websites",
+        img: "/assets/service-image-9.svg",
+    }];
+
+export {serviceDataSet};

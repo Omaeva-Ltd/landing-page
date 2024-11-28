@@ -5,6 +5,7 @@
 
 .video-wrapper{
     width: 40vw;
+    margin: 30px auto;
     animation: mainVideo 5s linear;
     animation-timeline: view();
     animation-range: entry 20%;
