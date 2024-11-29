@@ -25,7 +25,9 @@ function App() {
       <Project />
     </section>
     {/* <Test /> */}
-    <VelocityScroll default_velocity={2} text="· Let's work together" className="text-4xl mb-5 md:text-7xl font-bold "/>
+    <div className='mt-[700px]'>
+      <VelocityScroll default_velocity={2} text="· Let's work together" className="text-4xl mb-5 md:text-7xl font-bold "/>
+    </div>
     
    </main>
   )
