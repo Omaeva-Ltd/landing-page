@@ -1,3 +1,5 @@
+import { comment } from "postcss";
+
 const serviceDataSet = [
     {service: "Web Design",
     img: "/assets/service-image-1.svg"
@@ -67,4 +69,28 @@ const projetData = [
     },
 ]
 
-export {serviceDataSet, projetData};
+const testimonialData = [
+    {
+        id: 1,
+        comment: "Optimized designs and code for seamless performance and superior user engagement",
+        avatar: "/assets/testimonial-image.svg",
+        name: "Karla Lynn",
+        position: "Head of Design at Inayit",
+    },
+    {
+        id: 2,
+        comment: "Optimized designs and code for seamless performance and superior user engagement",
+        avatar: "/assets/testimonial-image.svg",
+        name: "Karla Lynn",
+        position: "Head of Design at Inayit",
+    },
+    {
+        id: 3,
+        comment: "Optimized designs and code for seamless performance and superior user engagement",
+        avatar: "/assets/testimonial-image.svg",
+        name: "Karla Lynn",
+        position: "Head of Design at Inayit",
+    }
+]
+
+export {serviceDataSet, projetData, testimonialData};

@@ -1,5 +1,5 @@
 
-import { HeroSection, Navbar, AboutUs, Services, Test, Project} from './components';
+import { HeroSection, Navbar, AboutUs, Services, Test, Project, AcceptingProjects, Testimonial, Cta} from './components';
 import { VelocityScroll } from './components/ui/scroll-based-velocity';
 
 function App() {
@@ -25,9 +25,18 @@ function App() {
       <Project />
     </section>
     {/* <Test /> */}
-    <div className='mt-[700px]'>
-      <VelocityScroll default_velocity={2} text="· Let's work together" className="text-4xl mb-5 md:text-7xl font-bold "/>
+    <div className='mt-[300px]'>
+      {/* <VelocityScroll default_velocity={2} text="· Let's work together" className="text-4xl mb-5 md:text-7xl font-bold "/> */}
     </div>
+    <section className='w-full pt-1 px-[60px] max-sm:px-[30px] max-sm:-mt-80 max-sm:mb-52 '>
+      <AcceptingProjects />
+    </section>
+    <section className='w-full pt-1 px-[60px] max-sm:px-[30px]'>
+      <Testimonial />
+    </section>
+    <section className='w-full h-[90vh] pt-1 px-[60px] max-sm:px-[30px]'>
+      <Cta />
+    </section>
     
    </main>
   )

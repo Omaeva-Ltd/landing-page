@@ -18,7 +18,10 @@ const Services = () => {
 
   return (
     <div>
-        <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter py-16 sm:py-20  max-w-sm leading-[100%]'>Explore what we do best</h2>
+        <div className="flex flex-wrap space-y-2 justify-between py-16 sm:py-20">
+            <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter max-w-sm leading-[100%]'>Explore what we do best</h2>
+            <p className="self-end max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+        </div>
         <div>
             <ul className=" grid grid-cols-2 max-sm:grid-cols-1 grid-rows-5 gap-7">
                 {
