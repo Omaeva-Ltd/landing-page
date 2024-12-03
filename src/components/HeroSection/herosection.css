@@ -29,6 +29,23 @@
     animation-fill-mode: forwards;
 }
 
+@media (max-width: 500px){
+    .video-wrapper::before{
+        font-size: 30px;
+        width: 200px;
+        bottom: 20px;
+        left: 10px;
+    }
+}
+@media (min-width: 501px) and (max-width: 800px){
+    .video-wrapper::before{
+        font-size: 56px;
+        width: 300px;
+        bottom: 30px;
+        left: 30px;
+    }
+}
+
 @keyframes heroVideoText {
     0%{
         opacity: 0;

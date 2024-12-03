@@ -15,8 +15,8 @@ const Project = () => {
 
   return (
     <div className="relative">
-      <div className="flex flex-wrap space-y-2 justify-between py-16 sm:py-20">
-            <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter max-w-sm leading-[100%]'>We have worked on</h2>
+      <div className="flex flex-wrap space-y-2 justify-between py-8 sm:py-20">
+            <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter max-w-sm max-sm:mb-5 leading-[100%]'>We have worked on</h2>
             <p className="self-end max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
         </div>
       <div className="flex flex-wrap justify-around "> 

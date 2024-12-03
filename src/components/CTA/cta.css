@@ -6,3 +6,11 @@
     max-width: 300px;
     padding: 10px;
 }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    background-color: transparent !important;
+}
+
+.cta-form input[type="checkbox"]{
+    accent-color: #800080;
+}

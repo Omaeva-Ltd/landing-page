@@ -1,45 +1,10 @@
 import { testimonialData } from "@/data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import "./testimonial.css";
 import { useEffect } from "react";
 
 const Testimonial = () => {
-
-  var settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
 
   // wheel scroll
 
@@ -66,15 +31,15 @@ const Testimonial = () => {
   
   
   return (
-    <div className="">
-      <div className="flex flex-wrap space-y-2 justify-between py-16 sm:py-20 sm:pb-0">
-            <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter max-w-xs leading-[100%]'>What our clients say</h2>
-            <p className="self-end max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+    <div className="max-md:mt-20">
+      <div className="flex flex-wrap space-y-2 justify-between sm:py-10 sm:pb-0">
+            <h2 className='font-bold max-sm-flex-1 text-[40px] sm:text-[60px] max-sm:mb-5  tracking-tighter max-w-xs leading-[100%]'>What our clients say</h2>
+            <p className="self-end max-sm-flex-1 max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
         </div>
       
       <div className="testimonial-wrapper">
-        <i class="fa-solid fa-arrow-left prev-button"></i>
-        <div className="testimonial-slider ">
+        <i className="fa-solid fa-arrow-left prev-button"></i>
+        <div className="testimonial-slider  ">
         <div className="first-section max-sm:grid-cols-1">
           {testimonialData.map(item => (
             <div key={item} className="flex flex-col justify-between">
@@ -106,7 +71,7 @@ const Testimonial = () => {
           ))}
         </div>
       </div>
-        <i class="fa-solid fa-arrow-right next-button"></i>
+        <i className="fa-solid fa-arrow-right next-button"></i>
       </div>
      
     </div>
