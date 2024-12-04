@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div className="flex max-sm:flex-col max-sm:my-4">
         <p className="mr-2 md:text-xs lg:text-lg">Copyright © 2024 Omaeva Ltd. </p>
-        <a href="/privacy-policy-omaeva" className="mr-1 md:text-xs lg:text-lg text-black underline">Privacy Policy</a>
+        <a href="../../../privacypolicy.html" className="mr-1 md:text-xs lg:text-lg text-black underline">Privacy Policy</a>
         <a href="/licensing-omaeva" className=" text-black md:text-xs lg:text-lg underline">Licesing</a>
       </div>
       <div className="flex gap-5 max-sm:gap-1 sm:gap-2 ">

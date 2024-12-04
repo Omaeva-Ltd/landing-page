@@ -3,7 +3,7 @@ import ShimmerButton from "../ui/shimmer-button";
 
 const AcceptingProjects = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 max-md:mb-10 mt-[400px] md:mt-[250px] ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 max-md:mb-10">
       <div className=" flex text-center flex-col items-center">
         <p className="flex  justify-center gap-1 items-center font-bold text-lg max-sm:text-xs uppercase "><span><img src="/assets/active-green-image.svg" alt="accepting projects" /></span>Accepting projects</p>
         <h3 className="font-bold text-[40px] sm:text-[60px] text-gray-700 leading-tight max-w-xs"><span className="text-main">Dream Big?</span>We’ll Help!</h3>

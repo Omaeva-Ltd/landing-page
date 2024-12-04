@@ -17,7 +17,7 @@ const Project = () => {
     <div className="relative">
       <div className="flex flex-wrap space-y-2 justify-between py-8 sm:py-20">
             <h2 className='font-bold text-[40px] sm:text-[60px]  tracking-tighter max-w-sm max-sm:mb-5 leading-[100%]'>We have worked on</h2>
-            <p className="self-end max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+            <p className="self-end text-lg leading-[130%] max-w-xs">We’ve crafted solutions we’re proud of—take a look at a few highlights.</p>
         </div>
       <div className="flex flex-wrap justify-around "> 
         {
@@ -35,8 +35,8 @@ const Project = () => {
               </div>
               <div className="p-4 flex justify-between items-center">
                 <div>
-                  <p className="text-md ">{item.year} <span className="text-4xl align-middle">&middot;</span>  <span>{item.client}</span></p>
-                  <h3 className="text-2xl text-ellipsis overflow-hidden lg:whitespace-nowrap font-semibold leading-tight">{item.title}</h3>
+                  <p className="text-lg ">{item.year} <span className="text-4xl align-middle">&middot;</span>  <span>{item.client}</span></p>
+                  <h3 className="text-2xl lg:text-3xl text-ellipsis overflow-hidden max-w-sm font-bold leading-tight">{item.title}</h3>
                 </div>
                 <div className={`${activeElement === item.id ? "block" : "hidden"}`}>
                   <img src="/assets/filled-arrow.svg" />
@@ -48,7 +48,7 @@ const Project = () => {
 
       </div>
       {/* view all */}
-      <div className="md:absolute -bottom-28 left-10 xl:-bottom-40 xl:left-32">
+      <div className="md:absolute left-10">
         <ShimmerButton background="#800080" className="w-52 " >View all</ShimmerButton>
       </div>
     </div>

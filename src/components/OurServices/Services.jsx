@@ -20,14 +20,14 @@ const Services = () => {
     <div>
         <div className="flex flex-wrap space-y-2 justify-between py-8 sm:py-20">
             <h2 className='font-bold max-sm-flex-1 text-[40px] sm:text-[60px]  tracking-tighter max-sm:mb-5 max-w-sm leading-[100%]'>Explore what we do best</h2>
-            <p className="self-end max-sm:flex-1 max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+            <p className="self-end text-lg leading-[130%] max-sm:flex-1 max-w-xs">Explore our projects, where innovation meets functionality, showcasing tailored solutions for diverse digital needs.</p>
         </div>
         <div>
             <ul className=" grid grid-cols-2 max-sm:grid-cols-1 grid-rows-5 gap-7">
                 {
                     serviceDataSet.map(({service, img}) => (
                         <div  onMouseEnter={() => setMouseInElement(service)} onMouseLeave={() => setMouseInElement(null)} key={service} onMouseMove={serviceHover} className="relative border-b-[1px] hover:translate-x-1 transition-all cursor-pointer max-w-md border-gray-500 font-semibold text-[20px] sm:text-[30px] py-3 px-2" >
-                            <li className= "hover:translate-x-3 flex gap-6 transition-all">
+                            <li className= "hover:translate-x-3 flex max-lg:text-2xl max-lg:flex-col gap-6 whitespace-nowrap transition-all">
                                 <img src={img} className="h-10 w-10" alt="service-icon" />
                                 {service}
                             </li>

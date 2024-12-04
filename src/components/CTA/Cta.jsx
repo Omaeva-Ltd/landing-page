@@ -37,7 +37,7 @@ const Cta = () => {
       <div className="flex-1 rounded-[60px] overflow-hidden h-full">
         <img src="/assets/cta-image-1.jpg" alt="normal image" className="w-full h-full object-cover " />
       </div>
-      <div className="lg:flex-[1.2] flex-1">
+      <div className="flex-1 flex flex-col justify-between">
         <h2 className="font-bold text-[40px] sm:text-[60px] leading-[100%] max-w-xl tracking-tighter ">Have a Vision? Let’s Make It a Reality Together!</h2>
         <p className="text-xl max-sm:text-lg max-sm:leading-[120%] leading-tight max-w-md mt-2">Share your ideas, and let’s collaborate to design impactful solutions tailored just for you</p>
         <form onSubmit={onSubmit} className="mt-3 cta-form">

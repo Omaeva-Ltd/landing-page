@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div>
         <div className="flex flex-wrap space-y-2 justify-between py-8 sm:py-20">
             <h2 className='font-bold max-sm-flex-1 text-[40px] sm:text-[60px]  tracking-tighter max-w-xl leading-[100%] max-sm:mb-5'>Deliver bold, innovative, effective solutions</h2>
-            <p className="self-end max-sm-flex-1 max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+            <p className="self-end max-sm-flex-1 text-lg leading-[130%] max-w-xs">Our expertise lies in building and scaling next-generation digital products and IT solutions for modern businesses.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 grid-rows-2 sm:gap-6 max-sm:space-y-6">
             <div className="border-2 flex flex-col justify-center items-start rounded-2xl p-10 md:min-h-80 bg-[#E1EDDA] ">
