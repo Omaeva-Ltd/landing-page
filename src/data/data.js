@@ -79,7 +79,7 @@ const projetData = [
         client: "Collins",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[80px] ",
-        link: "https://colllins.design.webflow.com/",
+        link: "https://colllins.webflow.io/",
     },
     {
         id: 5,

@@ -54,11 +54,11 @@ const Project = () => {
       {/* view all */}
       <div className="md:absolute left-10">
         <a href="#projects">
-          <ShimmerButton background="#800080" className="w-52 " >View all</ShimmerButton>
+          <ShimmerButton background="#800080" className="w-52 ">Cooking More</ShimmerButton>
         </a>
       </div>
     </div>
   )
 }
 
-export default Project
+export default Project;
