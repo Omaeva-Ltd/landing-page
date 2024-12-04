@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ShimmerButton from "../ui/shimmer-button";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -13,13 +14,17 @@ const Navbar = () => {
       <nav>
       <div className="flex justify-between mt-4 items-center">
       <div id="header-logo">
-        <img src="/assets/logo-gif.gif" className="absolute -z-100 w-[120px] -top-4 max-sm:w-[90px] "/>
+        <Link to="/" >
+          <img src="/assets/logo-gif.gif" className="absolute -z-100 w-[120px] -top-4 max-sm:w-[90px] "/>
+        </Link>
       </div>
       <div className="flex items-center ml-28 shrink max-sm:hidden gap-3 border-slim h-[50px] max-w-max border-main rounded-[30px] p-2 pl-3 pr-3">
         <a href="#services" className="hover:border-[1.5px] hover:rounded-[30px] hover:border-main py-[5px] px-[20px]">Services</a>
         <a href="#about" className="hover:border-[1.5px] hover:rounded-[30px] hover:border-main py-[5px] px-[20px]">About</a>
         <a href="#projects" className="hover:border-[1.5px] hover:rounded-[30px] hover:border-main py-[5px] px-[20px]">Projects</a>
-        <a href="../../../blog.html" className="hover:border-[1.5px] hover:rounded-[30px] hover:border-main py-[5px] px-[20px]">blog</a>
+        <Link to="/blog" className="hover:border-[1.5px] hover:rounded-[30px] hover:border-main py-[5px] px-[20px]">
+           Blogs
+        </Link>
       </div>
       <a href="#cta">
         <ShimmerButton background="#800080" className="max-sm:hidden" >Contact Us</ShimmerButton>

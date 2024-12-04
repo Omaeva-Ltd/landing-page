@@ -1,0 +1,11 @@
+@media (max-width: 400px){
+    .testimonial-sizing{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 630px){
+    .testimonial-sizing{
+        margin-top: 400px;
+    }
+}

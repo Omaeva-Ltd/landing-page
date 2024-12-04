@@ -49,6 +49,7 @@ const projetData = [
         client: " Inayit",
         tags: ["Branding", "Website", "SEO"],
         clasName: "",
+        link: "https://www.inayit.com/",
     },
     {
         id: 2,
@@ -58,6 +59,7 @@ const projetData = [
         client: "Aidecor",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[70px]",
+        link: "https://www.ai-decor.co.uk/",
     },
     {
         id: 3,
@@ -67,6 +69,7 @@ const projetData = [
         client: "SandTGlobal",
         tags: ["BRanding", "Website", "SEO"],
         clasName: "md:relative md:top-[10px] ",
+        link: "https://www.sandtglobal.co/",
     },
     {
         id: 4,
@@ -76,6 +79,7 @@ const projetData = [
         client: "Collins",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[80px] ",
+        link: "https://colllins.design.webflow.com/",
     },
     {
         id: 5,
@@ -85,6 +89,7 @@ const projetData = [
         client: "DentalBay",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[10px] ",
+        link: "https://dentalbay.webflow.io/",
     },
     {
         id: 6,
@@ -94,6 +99,7 @@ const projetData = [
         client: "TailorSpace",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[90px]  ",
+        link: "",
     },
 ]
 
@@ -101,35 +107,35 @@ const testimonialData = [
     {
         id: 1,
         comment: "Omaeva completely transformed how we present ourselves online. Their team didn’t just understand our vision—they amplified it. The new digital presence feels modern, professional, and truly reflects who we are as a company. We couldn’t be happier!",
-        avatar: "/assets/testimonial-image.svg",
+        avatar: "/assets/placeholder.svg",
         name: "Thayanithi",
         position: "CEO, Inayit",
     },
     {
         id: 2,
         comment: "We wanted something simple yet effective, and Omaeva delivered beyond our expectations. The digital platform they designed is clean, user-friendly, and helps us connect with patients like never before. It’s been a fantastic experience working with them.",
-        avatar: "/assets/testimonial-image.svg",
+        avatar: "/assets/placeholder.svg",
         name: "Dr. Magesh",
         position: "Dr. Magesh , Managing Director, Dental Bay",
     },
     {
         id: 3,
         comment: "Omaeva understood our goals and delivered a complete redesign and rebranding that perfectly reflects who we are today. The new look is sleek, modern, and professional, giving us the confidence to thrive in the global finance market. It’s been a transformative journey with their team.",
-        avatar: "/assets/testimonial-image.svg",
+        avatar: "/assets/placeholder.svg",
         name: "Tajith",
         position: "Tajith, CFO, SandT Global Finances",
     },
     {
         id: 5,
         comment: "Thrilled to announce the launch of our new e-commerce platform! Huge thanks to the amazing team at Omaeva for their creativity and dedication in bringing our vision to life.",
-        avatar: "/assets/testimonial-image.svg",
+        avatar: "/assets/placeholder.svg",
         name: "Bavi",
         position: "Bavi , Founder , AiDecor Ltd ",
     },
     {
         id: 6,
         comment: "Omaeva did an incredible job with our website. The new design is clean, modern, and so much easier for our customers to navigate. We’ve already noticed more inquiries coming through, and we couldn’t be happier with how it turned out!",
-        avatar: "/assets/testimonial-image.svg",
+        avatar: "/assets/placeholder.svg",
         name: "Mark Collins",
         position: "Mark Collins, Owner, Collins Plumbing",
     },
