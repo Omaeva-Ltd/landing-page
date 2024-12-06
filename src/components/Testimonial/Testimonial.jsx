@@ -34,7 +34,7 @@ const Testimonial = () => {
     <div className="">
       <div className="flex flex-wrap space-y-2 justify-between sm:py-10 sm:pb-0">
             <h2 className='font-bold max-sm-flex-1 text-[40px] sm:text-[60px] max-sm:mb-5  tracking-tighter max-w-2xl leading-[100%]'>Here’s why our clients love working with us.</h2>
-            <p className="self-end text-lg leading-[130%] max-sm-flex-1 max-w-xs">We are a digital agency that specializes in building and scaling cutting-edge digital product</p>
+            <p className="self-end text-lg leading-[130%] max-sm-flex-1 max-w-xs">Here’s why our clients love working with us: reliability, innovation, expertise, collaboration.</p>
         </div>
       
       <div className="testimonial-wrapper">

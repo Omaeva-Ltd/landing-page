@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 import "./privacypolicy.css";
 
 const PrivacyPolicy = () => {
@@ -58,6 +58,7 @@ const PrivacyPolicy = () => {
               For questions or to exercise your GDPR rights, contact us at: <a href="mailto:pasokan@omaeva.com">pasokan@omaeva.com</a>
           </p>
       </div>
+      <Footer />
     </div>
   )
 }
