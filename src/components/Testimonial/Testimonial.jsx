@@ -42,7 +42,7 @@ const Testimonial = () => {
         <div className="testimonial-slider  ">
         <div className="first-section max-sm:grid-cols-1 gap-3">
           {testimonialData.map(item => (
-            <div key={item} className="flex flex-col justify-between">
+            <div key={item.id} className="flex flex-col justify-between">
               <img src="/assets/testimonial-quote.svg" className="w-[60px]" alt="Project" />
               <p className="font-medium text-xl leading-tight mt-7">{item.comment}</p>
               <div className="flex items-center mt-5 gap-3">
@@ -57,7 +57,7 @@ const Testimonial = () => {
         </div>
         <div className="first-section max-sm:grid-cols-1">
           {testimonialData.map(item => (
-            <div key={item} className="flex flex-col justify-between">
+            <div key={item.id} className="flex flex-col justify-between">
               <img src="/assets/testimonial-quote.svg" className="w-[60px]" alt="Project" />
               <p className="font-medium text-xl leading-tight mt-7">{item.comment}</p>
               <div className="flex items-center mt-5 gap-3">

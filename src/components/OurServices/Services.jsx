@@ -6,7 +6,7 @@ const Services = () => {
     const [serviceMove, setServiceMove] = useState({x: 0, y: 0});
     const [mouseInElement, setMouseInElement] = useState(null);
     // console.log(serviceMove)
-    console.log(mouseInElement);
+    // console.log(mouseInElement);
 
     function serviceHover(e){
         let elementBoundary = e.target.getBoundingClientRect();
