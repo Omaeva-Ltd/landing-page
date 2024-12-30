@@ -1,5 +1,6 @@
 import Globe from "../ui/globe";
 import ShimmerButton from "../ui/shimmer-button";
+import Earth from "../ui/Earth";
 
 const AcceptingProjects = () => {
   return (
@@ -14,7 +15,8 @@ const AcceptingProjects = () => {
         
       </div>
       <div className=" flex justify-center items-center relative">
-        <Globe className="max-w-md" />
+        {/* <Globe className="max-w-md" /> */}
+        <Earth glowColor={[1,1,1]} baseColor={[1,1,1]} markerColor={[128 / 255, 0 / 255, 128 / 255]} scale={1.2} />
       </div>
     </div>
   )

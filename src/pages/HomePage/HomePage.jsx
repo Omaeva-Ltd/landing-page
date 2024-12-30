@@ -6,7 +6,8 @@ const HomePage = () => {
   return (
     <div>
         <Navbar />
-        <section className='w-full px-[60px] max-sm:px-[30px]'>
+    
+    <section className='w-full px-[60px] max-sm:px-[30px]'>
       <HeroSection />
     </section>
     <section>

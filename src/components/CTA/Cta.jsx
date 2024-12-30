@@ -5,12 +5,19 @@ const Cta = () => {
 
   const [submit, setsubmit] = useState("Submit");
 
+  const web3Key = import.meta.env.VITE_WEB3_FORM;
+    // console.log(web3Key);
+
+
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "a011d99e-ae3e-48da-8aef-15fe7020e583");
+    
+    
+
+    formData.append("access_key", web3Key);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);

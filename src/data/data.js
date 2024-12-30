@@ -116,28 +116,28 @@ const testimonialData = [
         comment: "We wanted something simple yet effective, and Omaeva delivered beyond our expectations. The digital platform they designed is clean, user-friendly, and helps us connect with patients like never before. It’s been a fantastic experience working with them.",
         avatar: "/assets/placeholder.svg",
         name: "Dr. Magesh",
-        position: "Dr. Magesh , Managing Director, Dental Bay",
+        position: "Managing Director, Dental Bay",
     },
     {
         id: 3,
         comment: "Omaeva understood our goals and delivered a complete redesign and rebranding that perfectly reflects who we are today. The new look is sleek, modern, and professional, giving us the confidence to thrive in the global finance market. It’s been a transformative journey with their team.",
         avatar: "/assets/placeholder.svg",
         name: "Tajith",
-        position: "Tajith, CFO, SandT Global Finances",
+        position: "CFO, SandT Global Finances",
     },
     {
         id: 5,
         comment: "Thrilled to announce the launch of our new e-commerce platform! Huge thanks to the amazing team at Omaeva for their creativity and dedication in bringing our vision to life.",
         avatar: "/assets/placeholder.svg",
         name: "Bavi",
-        position: "Bavi , Founder , AiDecor Ltd ",
+        position: "Founder , AiDecor Ltd ",
     },
     {
         id: 6,
         comment: "Omaeva did an incredible job with our website. The new design is clean, modern, and so much easier for our customers to navigate. We’ve already noticed more inquiries coming through, and we couldn’t be happier with how it turned out!",
         avatar: "/assets/placeholder.svg",
         name: "Mark Collins",
-        position: "Mark Collins, Owner, Collins Plumbing",
+        position: "Owner, Collins Plumbing",
     },
 ]
 
