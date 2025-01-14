@@ -5,34 +5,41 @@ const Cta = () => {
 
   const [submit, setsubmit] = useState("Submit");
 
-   const web3Key = import.meta.env.VITE_WEB3_FORM;
-      console.log(web3Key);
+  const onSubmit = async (event) => {
+    event.preventDefault();
 
-
-
-     const onSubmit = async (event) => {
-      event.preventDefault();
-      const formData = new FormData(event.target);
+    const formData = new FormData(event.target);
   
-      formData.append("access_key", web3Key);
+    // Use the environment variable for the Web3Forms access key
+    formData.append("access_key", import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
+    console.log(import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
   
-      const object = Object.fromEntries(formData);
-      const json = JSON.stringify(object);
+    const json = JSON.stringify(Object.fromEntries(formData));
   
-      const res = await fetch("https://api.web3forms.com/submit", {
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Accept: "application/json"
+          Accept: "application/json",
         },
-        body: json
-      }).then((res) => res.json());
+        body: json,
+      });
   
-      if (res.success) {
-        console.log("Success", res);
-        setsubmit("Submitted Successfully");
+      const result = await response.json();
+  
+      if (result.success) {
+        console.log("Form submitted successfully:", result);
+        alert("Form submitted successfully!");
+      } else {
+        console.error("Form submission failed:", result);
+        alert(result.message || "Something went wrong!");
       }
-    };
+    } catch (error) {
+      console.error("Network error:", error);
+      alert("Failed to submit. Please try again later.");
+    }
+  };
 
 
 
