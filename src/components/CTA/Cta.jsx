@@ -6,36 +6,32 @@ const Cta = () => {
   const [submit, setsubmit] = useState("Submit");
 
   const web3Key = import.meta.env.VITE_WEB3_FORM;
-    // console.log(web3Key);
+     console.log(web3Key);
 
 
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-
-    
-    
-
-    formData.append("access_key", web3Key);
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
-      console.log("Success", res);
-      setsubmit("Submitted successfully!")
-    }
-  };
+     const onSubmit = async (event) => {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+  
+      formData.append("access_key", web3Key);
+  
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+  
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      }).then((res) => res.json());
+  
+      if (res.success) {
+        console.log("Success", res);
+      }
+    };
 
 
 
