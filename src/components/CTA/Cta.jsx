@@ -41,7 +41,7 @@ const Cta = () => {
 
   return (
     <div className="w-full h-full border-4 border-black rounded-2xl flex max-lg:flex-col flex-wrap gap-7 p-6 max-sm:p-2">
-      <div className="flex-1 rounded-[60px] overflow-hidden h-full">
+      <div className="flex-1 pointer-events-none rounded-[60px] overflow-hidden h-full">
         <img src="https://omaeva.s3.eu-north-1.amazonaws.com/Get+in+Touch+.jpg" alt="normal image" className="w-full h-full object-cover " />
       </div>
       <div className="flex-1 flex flex-col justify-between">
