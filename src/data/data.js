@@ -59,7 +59,7 @@ const projetData = [
         client: "Epyrocxx",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[70px]",
-        link: "https://epyrocxx.vercel.app/",
+        link: "https://epyrocxx.com",
     },
     {
         id: 3,
