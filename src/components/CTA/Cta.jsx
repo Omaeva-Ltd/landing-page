@@ -3,13 +3,26 @@ import "./cta.css"
 
 const Cta = () => {
 
-  const [submit, setsubmit] = useState("Submit");
+  const [submit, setSubmit] = useState("Submit");
+  const [error, setError] = useState("");
+
+  const validateEmail = (email) => {
+    const reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return reg.test(String(email).toLowerCase());
+  };
 
   const onSubmit = async (event) => {
     event.preventDefault();
+    setError("");
 
     const formData = new FormData(event.target);
-  
+    const email = formData.get("company");
+
+    if (!validateEmail(email)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+
     // Use the environment variable for the Web3Forms access key
     formData.append("access_key", import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
     console.log(import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
@@ -29,8 +42,9 @@ const Cta = () => {
       const result = await response.json();
   
       if (result.success) {
-        console.log("Form submitted successfully:", result);
-        alert("Form submitted successfully!");
+        //console.log("Form submitted successfully:", result);
+        //alert("Form submitted successfully!");
+        setSubmit("Submitted Successfully!")
       } else {
         console.error("Form submission failed:", result);
         alert(result.message || "Something went wrong!");
@@ -55,9 +69,10 @@ const Cta = () => {
           
           <input type="text" placeholder="Your name" name="name" required />
           
-          <input type="text" placeholder="you@company.com" name="company" required />
+          <input type="email" placeholder="you@company.com" name="company" required />
           
-          <input type="text" placeholder="Tell us a little about your project" name="idea" required/>
+          <input type="message" placeholder="Tell us a little about your project" name="idea" required/>
+          {error && <p className="text-red-500">{error}</p>}
           <p className="text-xl font-medium my-4">How can we help?</p>
           <div className="flex gap-3 flex-wrap text-lg ">
             <div>
