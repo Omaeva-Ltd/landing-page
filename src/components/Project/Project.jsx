@@ -25,7 +25,7 @@ const Project = () => {
           projetData.map((item) => (
             <a href={item.link} key={item.id} onMouseEnter={() => hover(item.id)} onMouseLeave={() => hover(null)} className={` ${item.clasName} gap-7 md:w-[50%] md:p-5 cursor-pointer max-md:mb-7 `}>
               <div >
-                <div className="rounded-[30px] relative sm:h-[300px] md:h-fit lg:h-[400px] overflow-hidden">
+                <div className="rounded-[30px] pointer-events-none relative sm:h-[300px] md:h-fit lg:h-[400px] overflow-hidden">
                   {
                     item.id === 2 ? (
                       <video src={item.video} className={`${activeElement === item.id && 'scale-[1.02]'}`} autoPlay muted loop></video>

@@ -11,7 +11,7 @@ const HomePage = () => {
       <HeroSection />
     </section>
     <section>
-        <div className=" mt-7 flex justify-center items-start video-wrapper overflow-hidden">
+        <div className=" pointer-events-none mt-7 flex justify-center items-start video-wrapper overflow-hidden">
           <video autoPlay src="https://omaeva.s3.eu-north-1.amazonaws.com/Landing+Video+.mp4" oncontextmenu="return false;" className="hero-video rounded-xl" muted loop playsInline />
         </div>
     </section>
