@@ -5,8 +5,8 @@ const Cta = () => {
 
   const [submit, setsubmit] = useState("Submit");
 
-  const web3Key = import.meta.env.VITE_WEB3_FORM;
-     console.log(web3Key);
+  // const web3Key = import.meta.env.VITE_WEB3_FORM;
+  //    console.log(web3Key);
 
 
 
@@ -14,7 +14,7 @@ const Cta = () => {
       event.preventDefault();
       const formData = new FormData(event.target);
   
-      formData.append("access_key", web3Key);
+      formData.append("access_key", "ed76e43a-d9eb-40e8-af08-5c9d58c5beb7");
   
       const object = Object.fromEntries(formData);
       const json = JSON.stringify(object);
@@ -30,6 +30,7 @@ const Cta = () => {
   
       if (res.success) {
         console.log("Success", res);
+        setsubmit("Submitted Successfully");
       }
     };
 
