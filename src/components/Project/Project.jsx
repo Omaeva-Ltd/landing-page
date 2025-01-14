@@ -26,7 +26,14 @@ const Project = () => {
             <a href={item.link} key={item.id} onMouseEnter={() => hover(item.id)} onMouseLeave={() => hover(null)} className={` ${item.clasName} gap-7 md:w-[50%] md:p-5 cursor-pointer max-md:mb-7 `}>
               <div >
                 <div className="rounded-[30px] relative sm:h-[300px] md:h-fit lg:h-[400px] overflow-hidden">
-                  <img  src={item.img} alt="Project Image" className={`${activeElement === item.id ? "scale-[1.02]" : ""} transition-all rounded-[30px] w-full object-cover`} />
+                  {
+                    item.id === 2 ? (
+                      <video src={item.video} className={`${activeElement === item.id && 'scale-[1.02]'}`} autoPlay muted loop></video>
+                    ):(
+                      <img  src={item.img} alt="Project Image" className={`${activeElement === item.id ? "scale-[1.02]" : ""} transition-all rounded-[30px] w-full object-cover`} />
+                    )
+                  }
+                  
                   <ul className={`${activeElement === item.id ? " md:animate-in " : "md:hidden"} z-50 tag flex gap-2  absolute -top-1 -right-1 py-2 px-4 pl-5 rounded-bl-2xl bg-white`}>
                       {
                         item.tags.map(tag => (

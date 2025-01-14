@@ -53,8 +53,8 @@ const projetData = [
     },
     {
         id: 2,
-        img: "/assets/epyrockxx-project-2.jpg",
-        year: 2024,
+        video: "/assets/epyrockxx-project-2.mp4",
+        year: 2025,
         title: "Transforming spaces with premium epoxy flooring.",
         client: "Epyrocxx",
         tags: ["Design", "Website", "Animation"],
