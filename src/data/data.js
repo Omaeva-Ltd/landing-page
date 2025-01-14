@@ -53,13 +53,13 @@ const projetData = [
     },
     {
         id: 2,
-        img: "/assets/aidecor-project-2.jpg",
-        year: 2023,
-        title: "Crafting a personalised E-commerce  experience",
-        client: "Aidecor",
+        img: "/assets/epyrockxx-project-2.jpg",
+        year: 2024,
+        title: "Transforming spaces with premium epoxy flooring.",
+        client: "Epyrocxx",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[70px]",
-        link: "https://www.ai-decor.co.uk/",
+        link: "https://epyrocxx.vercel.app/",
     },
     {
         id: 3,
@@ -95,11 +95,11 @@ const projetData = [
         id: 6,
         img: "/assets/tailorspace-project-6.png",
         year: 2024 ,
-        title: "Coming Soon",
+        title: "Transformed the brand with innovative 3D tailored solutions that redefine the norm.",
         client: "TailorSpace",
         tags: ["Design", "Website", "Animation"],
         clasName: "md:relative md:top-[90px]  ",
-        link: "",
+        link: "https://3dtailorspace.vercel.app/",
     },
 ]
 

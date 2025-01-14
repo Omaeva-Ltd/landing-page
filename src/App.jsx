@@ -4,6 +4,7 @@ import { HeroSection, Navbar, AboutUs, Services, Test, Project, AcceptingProject
 import CookieConsent from 'react-cookie-consent';
 import { Blog, HomePage, PrivacyPolicy } from './pages';
 import { Routes, Route } from 'react-router-dom';
+import Scrollto from './components/Scrollto';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 
   return (
    <main className='relative w-full  font-cabinet'>
+    <Scrollto />
     <CookieConsent
     enableDeclineButton
     declineButtonText="Reject all"

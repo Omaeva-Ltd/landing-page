@@ -57,24 +57,28 @@ const Cta = () => {
           <p className="text-xl font-medium my-4">How can we help?</p>
           <div className="flex gap-3 flex-wrap text-lg ">
             <div>
-              <input type="checkbox" id="Website-design" name="Website-design"/>
-              <label htmlFor="Website-design" className="ml-2 accent-main">Website design</label>
+              <input type="checkbox" id="Website-design" name="ui/ux-design"/>
+              <label htmlFor="Website-design" className="ml-2 accent-main">UI/UX Design</label>
             </div>
             <div>
-              <input type="checkbox"   id="content-creation" name="content-creation"/>
-              <label htmlFor="content-creation" className="ml-2 accent-main">Content creation</label>
+              <input type="checkbox"   id="content-creation" name="branding-marketing"/>
+              <label htmlFor="content-creation" className="ml-2 accent-main">Branding & Digital Marketing</label>
             </div>
             <div>
-              <input type="checkbox"  id="ux-design" name="ux-design" />
-              <label htmlFor="ux-design" className="ml-2 accent-main">UX design</label>
+              <input type="checkbox"  id="ux-design" name="software-development" />
+              <label htmlFor="ux-design" className="ml-2 accent-main">Software Development</label>
             </div>
             <div>
-              <input type="checkbox"  id="strategy" name="strategy"/>
-              <label htmlFor="strategy" className="ml-2 accent-main">Strategy & consulting</label>
+              <input type="checkbox"  id="strategy" name="web-development"/>
+              <label htmlFor="strategy" className="ml-2 accent-main">Web development</label>
             </div>
             <div>
-              <input type="checkbox"  id="micro-interaction" name="micro-interaction"/>
-              <label htmlFor="micro-interaction" className="ml-2 accent-main">Micro Interaction</label>
+              <input type="checkbox"  id="micro-interaction" name="app-development"/>
+              <label htmlFor="micro-interaction" className="ml-2 accent-main">App development</label>
+            </div>
+            <div>
+              <input type="checkbox"  id="micro-interaction" name="it-consulting-services"/>
+              <label htmlFor="micro-interaction" className="ml-2 accent-main">IT Consulting Services</label>
             </div>
             <div>
               <input type="checkbox" id="other" name="other"/>

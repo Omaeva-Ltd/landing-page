@@ -12,7 +12,7 @@ const HomePage = () => {
     </section>
     <section>
         <div className=" mt-7 flex justify-center items-start video-wrapper overflow-hidden">
-          <video autoPlay src="/assets/hero-section.mp4" className="hero-video rounded-xl" muted loop playsInline />
+          <video autoPlay src="https://omaeva.s3.eu-north-1.amazonaws.com/Landing+Video+.mp4" className="hero-video rounded-xl" muted loop playsInline />
         </div>
     </section>
     <section id='about' className='w-full pt-1 px-[60px] max-sm:px-[30px]'>
