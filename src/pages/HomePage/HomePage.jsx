@@ -1,6 +1,9 @@
 import { createElement } from 'react';
 import { HeroSection, Navbar, AboutUs, Services, Test, Project, AcceptingProjects, Testimonial, Cta, Footer} from '../../components';
 import "./homepage.css"
+// import Calendely from '@/components/Calendely/Calendely';
+// import Calendely1 from '@/components/Calendely/Calendely1';
+// import Calendely2 from '@/components/Calendely/Calendely2';
 
 const HomePage = () => {
   return (
@@ -27,6 +30,10 @@ const HomePage = () => {
     <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px] max-sm:mb-[220px]'>
       <AcceptingProjects />
     </section>
+    {/* <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px] max-sm:mb-[220px]'>
+      <Calendely1 />
+      <Calendely2 />
+    </section> */}
     <section className='w-full pt-1 px-[80px] testimonial-sizing max-sm:px-[30px]'>
       <Testimonial />
     </section>
