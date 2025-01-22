@@ -152,7 +152,7 @@ const featuredBlog = {
     author: "Radhakrishnan",
     publishedOn: "Jan 2025",
     title: "The Rise of Next.js: A Revolutionary Framework in 2025",
-    content: "Building scalable, performant, and modern web applications has always been a challenge for developers. As we enter 2024, Next.js has emerged as a game-changer in the web development landscape, offering innovative solutions to age-old challenges. Recognized for its seamless developer experience and unique capabilities, Next.js is at the forefront of web development trends. Backed by findings from the 2024 Stack Overflow Developer Survey, Next.js is now widely adopted by developers and organizations alike, solidifying its position as a revolutionary framework that is reshaping the future of web development.",
+    content: "Building scalable, performant, and modern web applications has always been a challenge for developers. As we enter 2025, Next.js has emerged as a game-changer in the web development landscape, offering innovative solutions to age-old challenges. Recognized for its seamless developer experience and unique capabilities, Next.js is at the forefront of web development trends. Backed by findings from the 2024 Stack Overflow Developer Survey, Next.js is now widely adopted by developers and organizations alike, solidifying its position as a revolutionary framework that is reshaping the future of web development.",
     tag: "Design",
     articlePage: {
         title: "The Rise of Next.js: A Revolutionary Framework in 2025",
@@ -175,7 +175,7 @@ const featuredBlog = {
             {
                 id: 3,
                 keypointHeading: "The Future of Next.js",
-                para: "Looking ahead, Next.js is poised to revolutionize the web development landscape even further. The framework’s roadmap includes advanced features like streaming SSR, better support for AI-driven applications, and enhanced analytics for monitoring user behavior. As businesses increasingly prioritize user-centric experiences and developer efficiency, Next.js is set to remain a top choice for creating cutting-edge applications. With its unmatched flexibility, scalability, and performance, Next.js has redefined what developers can achieve. As we move through 2024 and beyond, it’s clear that this framework is not just a tool for today but an investment in the future of web development.",
+                para: "Looking ahead, Next.js is poised to revolutionize the web development landscape even further. The framework’s roadmap includes advanced features like streaming SSR, better support for AI-driven applications, and enhanced analytics for monitoring user behavior. As businesses increasingly prioritize user-centric experiences and developer efficiency, Next.js is set to remain a top choice for creating cutting-edge applications. With its unmatched flexibility, scalability, and performance, Next.js has redefined what developers can achieve. As we move through 2025 and beyond, it’s clear that this framework is not just a tool for today but an investment in the future of web development.",
             },
             {
                 id: 3,
