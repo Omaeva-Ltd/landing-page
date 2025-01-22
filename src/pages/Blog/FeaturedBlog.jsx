@@ -19,7 +19,7 @@ const FeaturedBlog = () => {
             <h1 className="text-3xl md:mt-10 mt-2 md:mb-4 line-clamp-2 font-medium">{featuredBlog.title}</h1>
             <p className="text-lg leading-snug text-gray-800 max-w-xl mb-2 md:mb-14 line-clamp-3">{featuredBlog.content}</p>
             <div className="flex justify-between items-center">
-                <Link to='/blog/featured' className="text-lg font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
+                <Link to='/blog/featured' className="text-lg hover:bg-main hover:text-white font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
                 <p>{featuredBlog.tag}</p>
             </div>
         </div>

@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className="flex flex-wrap justify-between items-center p-2">
       <div className="flex gap-2">
-        <img src="assets/footer-logo.svg" className="max-sm:w-10" alt="Logo" />
-        <img src="assets/footer-logo-text.svg" alt="Logo" className="w-[100px] md:w-[80px] lg:w-auto" />
+        <img src="/assets/footer-logo.svg" className="max-sm:w-10" alt="Logo" />
+        <img src="/assets/footer-logo-text.svg" alt="Logo" className="w-[100px] md:w-[80px] lg:w-auto" />
       </div>
       <div className="flex max-sm:flex-col max-sm:my-4">
         <p className="mr-2 md:text-xs lg:text-lg">Copyright © {year.getFullYear()} Omaeva Ltd. </p>

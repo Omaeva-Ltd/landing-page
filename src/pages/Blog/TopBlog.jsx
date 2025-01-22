@@ -6,7 +6,7 @@ const TopBlog = () => {
 
   const [hover, sethover] = useState(null);
 
-  console.log(topBlog);
+  //console.log(topBlog);
 
   return (
     <div>

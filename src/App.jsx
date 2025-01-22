@@ -49,6 +49,8 @@ function App() {
       <Route path='/' element={<HomePage />} />
       <Route path='/blog' element={<Blog />} />
       <Route path='/blog/:id' element={<ArticlePage />} />
+      <Route path='/blog/top-blog/:id' element={<ArticlePage />} />
+      <Route path='/blog/latest-blog/:id' element={<ArticlePage />} />
       <Route path='/privacy-policy' element={<PrivacyPolicy />} />
     </Routes>
     

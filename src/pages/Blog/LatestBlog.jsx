@@ -29,7 +29,7 @@ const LatestBlog = ({count}) => {
                   <h3 className="text-2xl font-semibold line-clamp-2 ">{blog.title}</h3>
                   <p className="text-lg leading-snug line-clamp-4 mt-[10px] mb-[30px]">{blog.content}</p>
                 </div>
-                <Link to={`/blog/latest-blog/${blog.id}`} className="text-lg font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
+                <Link to={`/blog/latest-blog/${blog.id}`} className="hover:bg-main hover:text-white text-lg font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
             </div>
           )).slice(0,noOfBlog)
         }

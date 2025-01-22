@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="flex justify-between mt-4 items-center">
       <div id="header-logo">
         <Link to="/" >
-          <img src="/assets/logo-gif.gif" className="absolute -z-100 w-[120px] -top-4 max-sm:w-[90px] "/>
+          <img src="/assets/logo-gif.gif" alt="Omaeva logo" className="absolute -z-100 w-[120px] -top-4 max-sm:w-[90px] "/>
         </Link>
       </div>
       <div className="flex items-center ml-28 shrink max-sm:hidden gap-3 border-slim h-[50px] max-w-max border-main rounded-[30px] p-2 pl-3 pr-3">
