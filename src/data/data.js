@@ -151,11 +151,11 @@ const featuredBlog = {
     avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
     author: "Radhakrishnan",
     publishedOn: "Jan 2025",
-    title: "The Rise of Next.js: A Revolutionary Framework in 2024",
+    title: "The Rise of Next.js: A Revolutionary Framework in 2025",
     content: "Building scalable, performant, and modern web applications has always been a challenge for developers. As we enter 2024, Next.js has emerged as a game-changer in the web development landscape, offering innovative solutions to age-old challenges. Recognized for its seamless developer experience and unique capabilities, Next.js is at the forefront of web development trends. Backed by findings from the 2024 Stack Overflow Developer Survey, Next.js is now widely adopted by developers and organizations alike, solidifying its position as a revolutionary framework that is reshaping the future of web development.",
     tag: "Design",
     articlePage: {
-        title: "The Rise of Next.js: A Revolutionary Framework in 2024",
+        title: "The Rise of Next.js: A Revolutionary Framework in 2025",
         mainImg: "/assets/featured/featured-img-1.jpg",
         author: "Radhakrishnan",
         publishedOn: "Jan 2025",
