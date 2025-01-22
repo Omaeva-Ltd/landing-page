@@ -1,9 +1,19 @@
 import { Footer, Navbar } from "@/components";
 import "./privacypolicy.css";
+import { Helmet } from "react-helmet-async";
 
 const PrivacyPolicy = () => {
+
+
+
+
   return (
     <div>
+        <Helmet>
+            <title>Privacy Policy</title>
+            <meta name="description" content="Privacy policy" />
+            <link rel="canonical" href="/privacy-policy" />
+        </Helmet>
         <Navbar />
       <div className="privacy-policy">
           <p>

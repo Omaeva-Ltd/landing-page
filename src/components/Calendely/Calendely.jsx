@@ -1,19 +1,25 @@
-import { PopupButton } from "react-calendly";
+import Earth from "../ui/Earth";
+import { useState } from "react";
+
+import Calendar from "./Calendar";
 
 const Calendely = () => {
 
-    console.log("Calendely")
+  
+
+    
   return (
-    <div>
-        <PopupButton
-        url="https://calendly.com/radhakrishnanr2699"
-        /*
-         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-         */
-        rootElement={document.getElementById("root")}
-        text="Click here to schedule!"
-      />
+    <div className="grid grid-cols-1 justify-center gap-10 lg:grid-cols-2">
+      <div className=" max-w-max mx-auto">
+        <Calendar />
+      </div>
+     <div className=" flex justify-center items-center relative">
+        {/* <Globe className="max-w-md" /> */}
+        <Earth glowColor={[1,1,1]} baseColor={[1,1,1]} markerColor={[128 / 255, 0 / 255, 128 / 255]} scale={1.2} />
+      </div>
+        
+        
+    
     </div>
   )
 }

@@ -1,4 +1,9 @@
-import { comment } from "postcss";
+//import { comment } from "postcss";
+//import { title } from "process";
+
+//import { title } from "process";
+
+//import { title } from "process";
 
 const serviceDataSet = [
     {service: "Web Design",
@@ -141,4 +146,151 @@ const testimonialData = [
     },
 ]
 
-export {serviceDataSet, projetData, testimonialData};
+const featuredBlog = {
+    img: "/assets/featured/featured-blog-img-1.png",
+    avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+    author: "Radhakrishnan",
+    publishedOn: "12 minutes ago",
+    title: "Innovate with Seamless IT Solutions",
+    content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    tag: "Design",
+    articlePage: {
+        title: "Building The Financial Control Center For Companies",
+        mainImg: "/assets/articlepage-img-1.png",
+        intro: "Building a great company is no easy feat. From developing a business idea to securing funding and managing day-to-day operations, there are endless difficulties entrepreneurs are faced with. But one all-too-common challenge for companies at every stage is effectively managing corporate finances. From understanding cash flow to selecting the right tools and vendors, it can be difficult to know how to maximize every dollar saved and spent. That’s because finance has gotten a lot more complicated. Today, even a seemingly simple concept like deciding where to store your cash now demands due diligence. ",
+        
+        mainContent: [
+            {
+                id: 1,
+                keypointHeading: "Money is losing value, fast",
+                para: "Most companies keep their cash in a traditional business checking or savings account. But here’s the unfortunate reality: the cash you have in checking accounts is likely losing it's value. With the average checking account rate in the US sitting at near zero levels and sky-high inflation, idle cash is losing value faster than almost ever before. Large enterprises dedicate entire teams to this problem and invest strategically into stable assets like Treasury Bills and Money Market Funds to maximize liquidity and yield. But most startups and small businesses don’t have this luxury, and don’t have access either.",
+            },
+            {
+                id: 2,
+                keypointHeading: "Financial data is scattered",
+                para: "Financial data is scattered across systems like bank portals, accounting software, and planning tools. Many times business owners are forced to play analyst just to answer basic questions about what happened last month. In larger organizations, executives can wait weeks for finance teams to consolidate monthly financials and share reports and dashboards that quickly become stale. But the second order questions are far more important and also the toughest to answer. ",
+            },
+            {
+                id: 3,
+                keypointHeading: "Earn more and burn less with Vesto",
+                para: "But few businesses are operating at their full potential. Traditional financial services and software providers have burdened small businesses for too long with clunky interfaces, disparate data, and manual cash management that make it near impossible to get a clear picture of financial health. The early team at Vesto saw an incredible opportunity to bridge the divide between software and services and build something truly disruptive for modern businesses.",
+            },
+        ],
+    }
+}
+
+const topBlog = [
+    {
+        id: 1,
+        cardImg: "/assets/topblog/topblog-img-1.png",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Sept 2024",
+    },
+    {
+        id: 2,
+        cardImg: "/assets/topblog/topblog-img-2.png",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Sept 2024",
+    },
+    {
+        id: 3,
+        cardImg: "/assets/topblog/topblog-img-3.png",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Sept 2024",
+    },
+    {
+        id: 4,
+        cardImg: "/assets/topblog/topblog-img-4.png",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Sept 2024",
+    },
+]
+
+const latestBlog = [
+    {
+        id: 1,
+        cardImg: "/assets/latestblog/latestblog-img-1.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 2,
+        cardImg: "/assets/latestblog/latestblog-img-2.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 3,
+        cardImg: "/assets/latestblog/latestblog-img-3.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 4,
+        cardImg: "/assets/latestblog/latestblog-img-4.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 5,
+        cardImg: "/assets/latestblog/latestblog-img-5.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 6,
+        cardImg: "/assets/latestblog/latestblog-img-6.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 7,
+        cardImg: "/assets/latestblog/latestblog-img-7.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+    {
+        id: 8,
+        cardImg: "/assets/latestblog/latestblog-img-8.png",
+        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
+        author: "Radhakrishnan",
+        publishedOn: "Dec 2025",
+        title: "Innovate with Seamless IT Solutions",
+        content: "Empowering businesses with cutting-edge IT and design development solutions. From web and app development to transformative IT strategies, Omaeva creates digital.....",
+    },
+]
+
+export {serviceDataSet, projetData, testimonialData, featuredBlog, topBlog, latestBlog};

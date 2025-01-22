@@ -23,7 +23,7 @@ const Services = () => {
             <p className="self-end text-lg leading-[130%] max-sm:flex-1 max-w-xs">Explore our projects, where innovation meets functionality, showcasing tailored solutions for diverse digital needs.</p>
         </div>
         <div>
-            <ul className=" grid grid-cols-2 max-sm:grid-cols-1 grid-rows-5 gap-7">
+            <ul className=" grid grid-cols-2 max-sm:grid-cols-1 sm:grid-rows-5 gap-7">
                 {
                     serviceDataSet.map(({service, img}) => (
                         <div  onMouseEnter={() => setMouseInElement(service)} onMouseLeave={() => setMouseInElement(null)} key={service} onMouseMove={serviceHover} className="relative border-b-[1px] hover:translate-x-1 transition-all cursor-pointer max-w-md border-gray-500 font-semibold text-[20px] sm:text-[30px] py-3 px-2" >

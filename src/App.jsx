@@ -2,7 +2,7 @@
 import { createElement } from 'react';
 import { HeroSection, Navbar, AboutUs, Services, Test, Project, AcceptingProjects, Testimonial, Cta, Footer} from './components';
 import CookieConsent from 'react-cookie-consent';
-import { Blog, HomePage, PrivacyPolicy } from './pages';
+import { ArticlePage, Blog, HomePage, PrivacyPolicy } from './pages';
 import { Routes, Route } from 'react-router-dom';
 import Scrollto from './components/Scrollto';
 
@@ -48,6 +48,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='/blog' element={<Blog />} />
+      <Route path='/blog/:id' element={<ArticlePage />} />
       <Route path='/privacy-policy' element={<PrivacyPolicy />} />
     </Routes>
     

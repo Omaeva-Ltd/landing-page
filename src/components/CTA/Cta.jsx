@@ -7,7 +7,7 @@ const Cta = () => {
   const [error, setError] = useState("");
 
   const validateEmail = (email) => {
-    const reg = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const reg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return reg.test(String(email).toLowerCase());
   };
 
@@ -25,6 +25,7 @@ const Cta = () => {
 
     // Use the environment variable for the Web3Forms access key
     formData.append("access_key", import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
+    formData.append("replyTo", "email");
     console.log(import.meta.env.VITE_WEB3_FORM_ACCESS_KEY);
   
     const json = JSON.stringify(Object.fromEntries(formData));
@@ -69,7 +70,7 @@ const Cta = () => {
           
           <input type="text" placeholder="Your name" name="name" required />
           
-          <input type="email" placeholder="you@company.com" name="company" required />
+          <input type="email" placeholder="you@company.com" name="email" required />
           
           <input type="message" placeholder="Tell us a little about your project" name="idea" required/>
           {error && <p className="text-red-500">{error}</p>}

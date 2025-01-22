@@ -29,7 +29,7 @@
   }
   
   .one-div:hover {
-    box-shadow: 0 0 30px 1000px rgb(232, 223, 237), inset 5px 5px 5px 0px rgb(255, 255, 255);
+    box-shadow: 0 0 30px 1000px #e8dfed, inset 5px 5px 5px 0px rgb(255, 255, 255);
   }
   
   @keyframes rot {

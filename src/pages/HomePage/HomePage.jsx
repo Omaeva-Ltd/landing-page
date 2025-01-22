@@ -1,9 +1,6 @@
-import { createElement } from 'react';
 import { HeroSection, Navbar, AboutUs, Services, Test, Project, AcceptingProjects, Testimonial, Cta, Footer} from '../../components';
 import "./homepage.css"
-// import Calendely from '@/components/Calendely/Calendely';
-// import Calendely1 from '@/components/Calendely/Calendely1';
-// import Calendely2 from '@/components/Calendely/Calendely2';
+import CalendlyWidget from '@/components/Calendely/CalendlyWidget';
 
 const HomePage = () => {
   return (
@@ -27,14 +24,16 @@ const HomePage = () => {
     <section id='projects' className='w-full pt-1 px-[60px] max-sm:px-[30px]'>
       <Project />
     </section>
-    <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px] max-sm:mb-[220px]'>
+    <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px]'>
       <AcceptingProjects />
     </section>
-    {/* <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px] max-sm:mb-[220px]'>
-      <Calendely1 />
-      <Calendely2 />
-    </section> */}
+    <section className='w-full px-[60px] max-sm:px-[30px] my-[10px] md:mt-[30px] max-sm:mb-[180px]'>
+      
+      <CalendlyWidget />
+      
+    </section>
     <section className='w-full pt-1 px-[80px] testimonial-sizing max-sm:px-[30px]'>
+      
       <Testimonial />
     </section>
     <section id='cta' className='w-full lg:h-[100vh] mt-[100px] pt-1 px-[60px] max-sm:px-[30px]'>
