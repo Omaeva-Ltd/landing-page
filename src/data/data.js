@@ -226,13 +226,13 @@ const topBlog = [
         cardImg: "/assets/topblog/topblog-img-2.png",
         title: "The Rise of Next-Gen IT Solutions Through Web Development in 2025",
         content: "Explore how advanced web development frameworks are driving next-gen IT solutions. Stay future-ready with these pivotal tools in 2025.",
-        avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI",
-        author: "Radhakrishnan",
-        publishedOn: "Sept 2024",
+        avatar: "https://media.licdn.com/dms/image/v2/D5603AQFWw2MeYch0FA/profile-displayphoto-shrink_400_400/B56ZP.1SZKH0Ag-/0/1735147203294?e=1743033600&v=beta&t=zJToTaJydthc2IuXkNyJ_kZJYmZa0-bwb4OpAbSb6yI",
+        author: "Dhanayogini Asokan",
+        publishedOn: "Jan 2025",
         articlePage: {
             title: "The Rise of Next-Gen IT Solutions Through Web Development in 2025",
             mainImg: "/assets/topblog/topblog-img-2.png",
-            author: "Radhakrishnan",
+            author: "Dhanayogini Asokan",
             publishedOn: "Dec 2025",
             intro: "Building a great company is no easy feat. From developing a business idea to securing funding and managing day-to-day operations, there are endless difficulties entrepreneurs are faced with. But one all-too-common challenge for companies at every stage is effectively managing corporate finances. From understanding cash flow to selecting the right tools and vendors, it can be difficult to know how to maximize every dollar saved and spent. That’s because finance has gotten a lot more complicated. Today, even a seemingly simple concept like deciding where to store your cash now demands due diligence. ",
             
