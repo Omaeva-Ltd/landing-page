@@ -5,11 +5,17 @@ import FeaturedBlog from "./FeaturedBlog";
 import TopBlog from "./TopBlog";
 import LatestBlog from "./LatestBlog";
 import "./blog.css"
+import { Helmet } from "react-helmet-async";
 
 
 const Blog = () => {
   return (
     <div>
+      <Helmet>
+        <title>Blog</title>
+        <meta name="description" content="Welcome to Omaeva’s blog and insights Spark creativity, share knowledge, and entertain in the dynamic world of web design and development." />
+        <link rel="canonical" href="/blog" />
+      </Helmet>
       <Navbar />
       <div className="mt-24 px-[60px] max-sm:px-[30px] text-center">
           <p className=" uppercase text-xl tracking-wider">Welcome to Omaeva’s insights</p>
