@@ -27,7 +27,7 @@ const HomePage = () => {
     <section className='w-full px-[60px] max-sm:px-[30px] my-[100px] md:mt-[180px]'>
       <AcceptingProjects />
     </section>
-    <section className='w-full px-[60px] max-sm:px-[30px] my-[10px] md:mt-[30px] max-sm:mb-[180px]'>
+    <section id='appointment' className='w-full px-[60px] max-sm:px-[30px] my-[10px] md:mt-[30px] max-sm:mb-[180px]'>
       
       <CalendlyWidget />
       

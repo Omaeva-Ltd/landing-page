@@ -12,7 +12,7 @@ const Blog = () => {
   return (
     <div>
       <Helmet>
-        <title>Blog</title>
+        <title>Omaeva blog</title>
         <meta name="description" content="Welcome to Omaeva’s blog and insights Spark creativity, share knowledge, and entertain in the dynamic world of web design and development." />
         <link rel="canonical" href="/blog" />
       </Helmet>

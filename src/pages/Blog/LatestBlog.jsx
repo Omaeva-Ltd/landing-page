@@ -15,7 +15,8 @@ const LatestBlog = ({count}) => {
               <div className="max-sm:h-[250px] overflow-hidden rounded-2xl">
                 <img src={blog.cardImg} alt={blog.title} className="w-full h-full object-cover object-center" />
               </div>
-              <div className="flex items-center gap-2 mt-3 pl-2">
+              <div className="flex flex-col items-start">
+                <div className="flex items-center gap-2 mt-3 pl-2">
                 <div className="overflow-hidden w-[30px] h-[30px] rounded-full">
                   <img src={blog.avatar} alt={blog.author} className="w-full object-cover object-center" />
                 </div>
@@ -27,9 +28,11 @@ const LatestBlog = ({count}) => {
                 </div>
                 <div className="mt-5 mb-7">
                   <h3 className="text-2xl font-semibold line-clamp-2 ">{blog.title}</h3>
-                  <p className="text-lg leading-snug line-clamp-4 mt-[10px] mb-[30px]">{blog.content}</p>
+                  <p className="text-lg leading-snug line-clamp-3 mt-[10px] mb-[10px]">{blog.content}</p>
                 </div>
-                <Link to={`/blog/latest-blog/${blog.id}`} className="hover:bg-main hover:text-white text-lg font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
+                <Link to={`/blog/latest-blog/${blog.id}`} className="hover:bg-main mt-auto hover:text-white text-lg font-medium border border-main px-5 py-2 rounded-full"><button>Read More</button></Link>
+              </div>
+              
             </div>
           )).slice(0,noOfBlog)
         }

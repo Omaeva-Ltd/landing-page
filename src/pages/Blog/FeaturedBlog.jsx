@@ -10,7 +10,7 @@ const FeaturedBlog = () => {
         <div className="flex flex-col justify-center">
             <div className="flex items-center gap-3">
                 <div className="w-[30px] h-[30px] overflow-hidden rounded-full bg-black">
-                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFCjaxZQRoKNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715786850057?e=1743033600&v=beta&t=t5SjBL-IYPcg13VSrfHJk_MBvEe5_c7EenfFLru80yI" alt="Author image" className="w-full h-[100%] rounded-2xl object-cover object-center" />
+                    <img src={featuredBlog.avatar} alt="Author image" className="w-full h-[100%] rounded-2xl object-cover object-center" />
                 </div>
                 <p >{featuredBlog.author}</p>
                 <div className="w-[6px] h-[6px] rounded-full bg-black"></div>

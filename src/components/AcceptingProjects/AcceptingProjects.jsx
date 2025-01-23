@@ -10,9 +10,9 @@ const AcceptingProjects = () => {
         <p className="flex  justify-center gap-1 items-center font-bold text-lg max-sm:text-xs uppercase "><span><img src="/assets/active-green-image.svg" alt="accepting projects" /></span>Accepting projects</p>
         <h3 className="font-bold text-[40px] sm:text-[60px] text-gray-700 leading-tight max-w-xs"><span className="text-main">Dream Big?</span>We’ll Help!</h3>
         <p className="max-w-sm">With a rich history of success, we’ve been empowering clients to make their visions a meaningful reality</p>
-        {/* <a href="#cta">
-          <ShimmerButton background="#800080" className="m-5" ></ShimmerButton>
-        </a> */}
+        <a href="#appointment">
+          <ShimmerButton background="#800080" className="m-5" >Book an Appointment</ShimmerButton>
+        </a>
         {/* <div className="mt-10 bg-main rounded-full py-3 px-6 text-white font-medium"><Calendely /></div> */}
         
         
