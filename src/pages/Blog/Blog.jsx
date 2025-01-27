@@ -14,7 +14,7 @@ const Blog = () => {
       <Helmet>
         <title>Omaeva blog</title>
         <meta name="description" content="Welcome to Omaeva’s blog and insights Spark creativity, share knowledge, and entertain in the dynamic world of web design and development." />
-        <link rel="canonical" href="/blog" />
+        {/* <link rel="canonical" href="https://www.omaeva.com/blog" /> */}
       </Helmet>
       <Navbar />
       <div className="mt-24 px-[60px] max-sm:px-[30px] text-center">
